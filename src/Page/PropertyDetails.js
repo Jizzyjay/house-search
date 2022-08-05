@@ -53,7 +53,7 @@ const PropertyDetails = () => {
         <div className='flex-1 w-full mb-8 bg-white border border-gray-300 rounded-lg px-6 py-8'>
           <div className='flex items-center gap-x-4 mb-8'>
             <div className='w-20 h-20 p-1 border border-gray-300 rounded-full'>
-              <img src={property.agent.image}></img>
+              <img src={property.agent.image} alt=''></img>
             </div>
             <div>
               <div className='font-bold text-lg'>{property.agent.name}</div>
